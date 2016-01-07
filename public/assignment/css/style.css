@@ -1,0 +1,101 @@
+.vcenter {
+    display: inline-block;
+    margin-top: 25px;
+    float: none;
+    text-align: right;
+}
+
+.sidebar {
+    border: 2px solid black; 
+    padding-left: 0; 
+    padding-right: 0;
+}
+
+.sidebarcell{
+    border-bottom: 2px solid black
+}
+
+.activecell{
+    background-color: #f5f5f5;
+}
+
+.sidebartext{
+    font-size: 15px;
+    padding-left: 10px;
+    color: black
+}
+
+.labelalign {
+    font-weight: normal;
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.inputstyle {
+    width: 100%; 
+    border: 2px solid black;
+}
+
+.buttonstyle {
+    font-size: 15px;
+    color: black;
+    background-color: #F0F0F0;
+    width: 100%; 
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.glyphicon.glyphicon-plus {
+    color: black;
+    font-size: 20px;
+}
+
+.glyphicon.glyphicon-ok {
+    color: black;
+    font-size: 20px;
+}
+
+.glyphicon.glyphicon-remove {
+    color: black;
+    font-size: 20px;
+}
+
+.glyphicon.glyphicon-pencil {
+    color: black;
+    font-size: 20px;
+}
+
+.glyphicon.glyphicon-align-justify {
+    color: black;
+    font-size: 20px;
+}
+
+.glyphicon.glyphicon-triangle-bottom {
+    color: black;
+}
+
+.borderedcell {
+    font-weight: normal;
+    border: 1px solid black;
+}
+
+.table th,
+.table td,
+.table tr {
+    border: 1px solid black;
+}
+
+.divider {
+  height: 2px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.invisibile {
+    visibility: hidden;
+}

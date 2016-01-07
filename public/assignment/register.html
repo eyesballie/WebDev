@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Register
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    
+    <body>
+        <div class="container" style="margin: 20px">
+            <div class="container">
+                <div class="row" style="border: 2px solid black">
+                    <div class="col-xs-7">
+                        <h2>Form Maker</h2>
+                    </div>
+                    <div class="col-xs-5 vcenter">
+                        <nav>
+                            <a href="register.html" style="color:black">Register</a> |
+                            <a href="login.html">Login</a> |
+                            <a href="profile.html">Username</a> |
+                            <a href="logout.html">Logout</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="container">
+                <div class="row" style="display:flex">
+                    <div class="col-xs-2 sidebar">
+                        <table style="width: 100%;">
+                            <tbody>
+                                <tr class="sidebarcell">
+                                    <td><a href="home.html" class="sidebartext">Home</a></td>
+                                </tr>
+                                <tr class="sidebarcell">
+                                    <td><a href="profile.html" class="sidebartext">Profile</a></td>
+                                </tr>
+                                <tr class="sidebarcell">
+                                    <td><a href="admin.html" class="sidebartext">Admin</a></td>
+                                </tr>
+                                <tr class="sidebarcell">
+                                    <td><a href="forms.html" class="sidebartext">Forms</a></td>
+                                </tr>
+                            </tbody>
+                        
+                        </table>
+                        
+                    </div>
+                    <div class="col-xs-10">
+                        <h2>Register</h2>
+                        
+                        <form class="form-horizontal">
+                            <div class="form-group" align="left">
+                                <label for="inputUserName" class="col-sm-3 labelalign">Username:</label>
+                                <div class="col-sm-9">
+                                  <input type="text" id="inputUserName" placeholder="Username" class="inputstyle">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword" class="col-sm-3 labelalign">Password:</label>
+                                <div class="col-sm-9">
+                                  <input type="password" id="inputPassword" placeholder="Password" class="inputstyle">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputVerifyPassword" class="col-sm-3 labelalign">Verify Password:</label>
+                                <div class="col-sm-9">
+                                    <input type="password" id="inputVerifyPassword" placeholder="First Name" class="inputstyle">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail" class="col-sm-3 labelalign">Email:</label>
+                                <div class="col-sm-9">
+                                  <input type="email" id="inputEmail" placeholder="Email" class="inputstyle">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-offset-3 col-sm-9">
+                                    <input type=button class="buttonstyle" onclick="location.href = 'profile.html'" value='Register'></input>
+                                </div>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <body>
+</html>
